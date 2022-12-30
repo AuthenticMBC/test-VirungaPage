@@ -1,0 +1,168 @@
+#container{
+    width: 100%;
+    height: 100%;
+}
+#top {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(226, 226, 226);
+    margin: 10px;
+}
+
+#content {
+    width: 100%;
+    height: 60%;
+    /*
+        height : 
+            videoHome           --> 5%
+            stickerInfo         --> 5%
+            protect_and_reserve --> 5%
+            greenEconomy        --> 5%
+            protectingPark      --> 5%
+    */
+    
+}
+
+    #videoHome{
+        width: 100%;
+        height: 5%;
+    }
+
+    #stickerInfo{
+        width: 100%;
+        height: 5%;
+        background-color: rgb(207, 200, 200);
+        padding-top:40px ;
+        padding-bottom: 40px;
+        
+        
+    }
+        #conservation, #economy, #electicity, #group-63{
+            margin-right: 25px;
+            padding-left: 10px; padding-right: 10px;
+            float: left;
+        }
+        .dgt{
+            color: rgb(208, 139, 50);
+        }
+        
+        .stickerpic, .stickerctnt{
+            text-align: center;
+        }
+        
+
+    #protect_and_reserve{ 
+        width: 100%; height: 5%;
+        
+        margin-top: 30px;
+    }
+
+            .pic{
+                height: 100%; width: 50%;
+                
+                float: left;
+                text-align: center;
+            }
+                .pic > img{
+                    width: 80%; height: auto;  
+                    padding-top: 100px;                  
+                    padding: auto;
+                    
+                }
+            .ctnt{
+                height: 100%; width: 49%;
+                
+                float: right;
+            }
+                div.titleContent{
+                    background-color: rgb(3, 3, 99);
+                    margin-right: 10%;
+                    padding: 20px; padding-top: 30px; padding-bottom: 30px;
+                }
+                    div.titleContent > p > span.titleContentspan_1{
+                        color: rgb(237, 138, 8);
+                        
+                        font-size: large;
+                        font-weight: bolder;
+                    }
+                    div.titleContent > p > span.titleContentspan_2{
+                        color: white;
+                        font-size: 50px;
+                    }
+                .contentCtnt > p{
+                    padding: 20px;
+                    margin-left: 50px; margin-right: 150px;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 20px;
+                    
+                     
+                }
+              
+                a:link.btn{
+                    background-color: #ff7b00;
+                    text-decoration: none;
+                    padding: 15px; padding-left: 25px; padding-right: 25px;
+                    
+                }
+                  
+                a:hover.btn{
+                    background-color: rgb(37, 44, 91);
+                }
+                
+
+    div#greenEconomy{
+        width: 100%; height: 5%;
+        clear: both;
+        /*background-image: url("gallery/farmer.jpg");*/
+    }
+
+    #protectingPark{
+        width: 100%; height: 5%;
+    }
+        
+
+#bottom{
+    width: 100%;
+    height: 20%;
+    
+    background-color: rgb(47, 47, 47);
+    
+}
+
+    .form{
+        width: 100%;
+        height: 5%;
+        padding-top: 5%; padding-bottom: 5%;
+        margin-left: 25px;
+    }
+    #email{
+        width: 60%;
+        padding: 30px 40px;
+        background-color: darkgrey;
+        color: black;
+        font-size: 20px;
+        
+    }
+    .privacyClass{
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    div.privacyClass > label {
+        color: dimgray;
+    }
+    div.privacyClass > label > a{
+        color: dimgray;
+    }
+    div.privacyClass > label > a:hover{
+        color: #ff7b00;
+    }
+
+    input.submit{
+        background-color: #ff7b00;
+        text-decoration: none;
+        padding: 15px; padding-left: 25px; padding-right: 25px;
+        
+    }
+    input.submit:hover{
+        background-color: rgb(37, 44, 91);
+    }
